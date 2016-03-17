@@ -3,12 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <title>RPMS</title>
-    
+
 </head>
 <body ng-app="rpms">
-    <script src="lib/angular/angular.min.js"></script>
-        <input type="text" ng-model="myName"/>
-        <div ng-bind="myName"></div>
-
+    <script src="lib/angular/angular.js"></script>
+    <input type="text" ng-model="myName" />
+    <p ng-bind="myName"></p>
+    <script type="text/javascript">
+        var app = angular.module("rpms", []);
+    </script>
 </body>
 </html>
