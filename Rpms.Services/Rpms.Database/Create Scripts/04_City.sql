@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[City]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Name] NVARCHAR(50) NOT NULL, 
+    [Country] NVARCHAR(50) NULL
+)
