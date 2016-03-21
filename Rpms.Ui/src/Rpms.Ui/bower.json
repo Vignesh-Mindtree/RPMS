@@ -2,6 +2,7 @@
   "name": "RPMS",
   "private": true,
   "dependencies": {
-     "angular": "1.5.1"
+    "angular": "~1.5.1",
+    "requirejs": "~2.1.22"
   }
 }
