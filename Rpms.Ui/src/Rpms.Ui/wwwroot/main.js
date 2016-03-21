@@ -1,7 +1,6 @@
 require.config({
     paths: {
         'angular': 'lib/angular/angular'
-        //,'app':'app'
     },
     shim: {
         angular: {
