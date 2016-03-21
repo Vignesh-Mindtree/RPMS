@@ -1,16 +1,15 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en" manifest="cache.appcache">
 <head>
     <meta charset="utf-8" />
     <title>RPMS</title>
 
 </head>
 <body ng-app="rpms">
-    <script src="lib/angular/angular.js"></script>
+    <!--script src="lib/angular/angular.js"></script>-->
+    <input type="text" ng-model="myName" />
     <input type="text" ng-model="myName" />
     <p ng-bind="myName"></p>
-    <script type="text/javascript">
-        var app = angular.module("rpms", []);
-    </script>
+    <script data-main="main.js" src="lib/requirejs/require.js"></script>
 </body>
 </html>
